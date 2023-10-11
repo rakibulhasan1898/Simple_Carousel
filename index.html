@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Carousel Project</title>
+    <!-- GOOGLE FONTS CDN KIT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- JQUERY OWL CAROUSEL CSS -->
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="carousel_quote">
+        <div class="container">
+            <div class="banner_carousel owl-carousel">
+                <div class="row">
+                    <div class="image">
+                        <img src="images/image-1.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="quote">
+                        <p><q>Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur, mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id metus. Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam leo et semper vestibulum.</q></p>
+                    </div>
+                    <div class="introducing_author">
+                        <h5>Frank Kinney</h5>
+                        <h6>FINANCIAL DIRECTOR</h6>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="image female-image">
+                        <img src="images/image-2.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="quote">
+                        <p><q>Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur, mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id metus. Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam leo et semper vestibulum.</q></p>
+                    </div>
+                    <div class="introducing_author">
+                        <h5>Marry Loo</h5>
+                        <h6>FINANCIAL DIRECTOR</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- JQUERY CDN KIT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FONT AWESOME KIT -->
+    <script src="https://kit.fontawesome.com/5a7fd6feb3.js" crossorigin="anonymous"></script>
+    <!-- JQUERY CAROUSEL -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- CUSTOM SCRIPT -->
+    <script>
+        $(document).ready(function(){
+        $(".banner_carousel").owlCarousel({
+            items:1,
+            loop: true,
+            nav:true,
+            autoplay: true,
+            autoplayTimeout: 2000
+
+        });
+        });
+    </script>
+</body>
+</html>

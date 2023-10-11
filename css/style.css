@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel_quote{
+
+padding: 50px 0;
+
+position: relative;
+}
+.image{
+
+width: 15%;
+
+margin: auto;
+
+height: 170px;
+
+overflow: hidden;
+}
+.image img{
+
+width: 100%;
+}
+.quote{
+
+text-align: center;
+
+margin-top: 15px;
+
+font-family: 'Playfair Display', serif;
+}
+.quote p{
+
+}
+.introducing_author{
+
+text-align: center;
+
+margin-top: 20px;
+}
+.introducing_author h5{
+
+text-transform: uppercase;
+
+margin-bottom: 5px;
+
+font-weight: 700;
+
+font-family: 'Poppins', sans-serif;
+}
+.introducing_author h6{
+    
+font-size: 9px;
+    
+letter-spacing: 3px;
+}
+.banner_carousel{position: static;}
+.banner_carousel .owl_nav{
+
+}
+.banner_carousel .owl-nav .owl-prev{
+
+position: absolute;
+
+top: 50%;
+
+left: 0;
+
+transform: translateY(-50%);
+}
+.banner_carousel .owl-nav .owl-prev span{
+    
+display: block;
+    
+width: 100px;
+    
+height: 100px;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+color: #000000a1;
+    
+font-size: 60px;
+transition: 0.4s all ease-in-out;
+}
+.banner_carousel .owl-nav .owl-next{
+
+position: absolute;
+
+top: 50%;
+
+right: 0;
+
+transform: translateY(-50%);
+}
+.banner_carousel .owl-nav .owl-next span{
+    
+display: block;
+    
+width: 100px;
+    
+height: 100px;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+color: #000000a1;
+    
+font-size: 60px;
+transition: 0.4s all ease-in-out;
+}
+
+.banner_carousel .owl-nav .owl-next span:hover,.banner_carousel .owl-nav .owl-prev span:hover {
+    color: #00000052;
+}
+
+.female-image {
+
+width: 22%;
+}
+.female-image img{
+    
+}
